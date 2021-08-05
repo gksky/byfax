@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Container/>
+    <Wrapper/>
   </div>
 </template>
 
 <script>
-import Container from './components/Container.vue'
+import Wrapper from './components/Wrapper.vue'
 
 export default {
   name: 'App',
   components: {
-    Container
+    Wrapper
   }
 }
 </script>

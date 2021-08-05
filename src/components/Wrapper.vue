@@ -8,7 +8,7 @@
 import Header from './Header.vue'
 
 export default {
-  name: 'Container',
+  name: 'Wrapper',
   components: {
     Header
   }

@@ -1,25 +1,22 @@
 <template>
-  <div id="app">
-    <Container/>
+  <div class="container">
+    <Header/>
   </div>
 </template>
 
 <script>
-import Container from './components/Container.vue'
+import Header from './Header.vue'
 
 export default {
-  name: 'App',
+  name: 'Container',
   components: {
-    Container
+    Header
   }
 }
 </script>
 
 <style>
-
-
-
-body, #app {
+.container {
   margin: 0;
   padding: 0;
 
